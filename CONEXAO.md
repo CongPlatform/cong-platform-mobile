@@ -3,7 +3,7 @@
 O aplicativo conversa com a API Express do CONG. A API valida o usuário pelo
 Supabase Auth e acessa o PostgreSQL do mesmo projeto Supabase usado pelo Web.
 
-1. Confirme no navegador que `https://cong-platform.vercel.app/api/health`
+1. Confirme no navegador que `https://dev.cong.com.br/api/health`
    responde com `status: ok`. Se o endereço público do Web mudou, use o novo.
 2. Defina `EXPO_PUBLIC_API_URL` em `.env.development` com a origem pública do
    Web, **sem `/api` ao final**. O serviço mobile acrescenta `/api` às rotas.
